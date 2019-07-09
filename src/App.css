@@ -1,5 +1,28 @@
 .App {
-  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid #EEE;
+}
+
+.App .Header {
+  padding: 10px 5px;
+  display: flex;
+}
+
+.App .Header input {
+  font-family: 'Helvetica Neue',
+    Arial, 
+    Helvetica, 
+    sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  padding-left: 15px;
+  width: 100%;
+  border: none;
+}
+
+.App .Header input:focus {
+  outline: none;
 }
 
 .App-logo {
